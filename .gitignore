@@ -1,0 +1,19 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Python environments, caches, and compiled files
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example

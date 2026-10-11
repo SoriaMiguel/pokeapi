@@ -1,0 +1,19 @@
+[project]
+name = "kanto-pokedex-api"
+version = "1.0.0"
+description = "FastAPI service for the original 151 Pokémon"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.115.12",
+  "httpx==0.28.1",
+  "pydantic==2.14.0",
+  "uvicorn[standard]==0.34.2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest==8.3.5",
+]
+
+[tool.uv]
+package = false
